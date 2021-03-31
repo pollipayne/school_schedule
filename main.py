@@ -35,6 +35,8 @@ claire = Student(
 claire.get_num_classes()
 claire.summary()
 
+fireClass = Classroom("Fire", [quinn, claire])
+
 # Extra:
 # - create a function that will return the student with more classes
 # - create a test for that function
