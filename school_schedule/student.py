@@ -43,5 +43,8 @@ class Student:
     def summary(self):
         print("A string of some things about student.")
 
+    def display_classes(self):
+        print(self.classes) 
+
 
     

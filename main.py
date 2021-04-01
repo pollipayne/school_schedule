@@ -1,4 +1,5 @@
-
+from school_schedule.student import Student 
+from school_schedule.middleschoolstudent import MiddleSchoolStudent
 
 #first instance
 quinn = Student(
@@ -19,7 +20,7 @@ quinn.get_num_classes()
 quinn.summary()
 
 # second instance
-claire = Student(
+claire = MiddleSchoolStudent(
                 "Claire", 
                 "freshmen", 
                 [
@@ -29,13 +30,13 @@ claire = Student(
                     "Gym", 
                     "Earth Science", 
                     "Painting"
-                ]
+                ], True
             )
 
 claire.get_num_classes()
 claire.summary()
 
-fireClass = Classroom("Fire", [quinn, claire])
+
 
 # Extra:
 # - create a function that will return the student with more classes
